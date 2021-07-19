@@ -685,8 +685,8 @@ button1:hover {
                 <div class="card-body">
                   <div class="row align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1">Road To Idul Fitri</div>
-                      <p class="h5 mb-0 font-weight-bold rainbow" id="IdulFitri"></p>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Road To Idul Adha</div>
+                      <p class="h5 mb-0 font-weight-bold rainbow" id="IdulAdha"></p>
                       <div class="mt-2 mb-0 text-muted text-xs">
                       </div>
                     </div>
@@ -840,11 +840,11 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  document.getElementById("IdulFitri").innerHTML = days + "d " + hours + "h "
+  document.getElementById("IdulAdha").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("IdulFitri").innerHTML = "BERAKHIR";
+    document.getElementById("IdulAdha").innerHTML = "BERAKHIR";
   }
 }, 1000);
 </script>
