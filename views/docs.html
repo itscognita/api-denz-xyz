@@ -565,7 +565,7 @@ button1:hover {
         </a>
         </li>
       <hr class="sidebar-divider">
-      <div class="version">Version 34.1</div>
+      <div class="version">Version 28.1</div>
     </ul>
     <!-- Sidebar -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -670,7 +670,7 @@ button1:hover {
           <div class="row align-item-center">
            <div id="demo" class="alert alert-dark alert-dismissible" role="alert">
             <div id="Statistic"></div>
-             <span id="tgl">17</span> - <span id="bln">08</span> - <span id="thn">2021</span>
+             <span id="tgl">20</span> - <span id="bln">07</span> - <span id="thn">2021</span>
             </div>
            </div>
           </div>
@@ -685,8 +685,8 @@ button1:hover {
                 <div class="card-body">
                   <div class="row align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-uppercase mb-1">Road To Kemerdekaan Indonesia</div>
-                      <p class="h5 mb-0 font-weight-bold rainbow" id="KemerdekaanIndonesia"></p>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Road To Idul Adha</div>
+                      <p class="h5 mb-0 font-weight-bold rainbow" id="IdulAdha"></p>
                       <div class="mt-2 mb-0 text-muted text-xs">
                       </div>
                     </div>
@@ -829,7 +829,7 @@ button1:hover {
   <script 
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-var countDownDate = new Date("Agust 17, 2021 17:08:2021").getTime();
+var countDownDate = new Date("March 5, 2021 23:00:00").getTime();
 
 var x = setInterval(function() {
   var now = new Date().getTime();
@@ -840,11 +840,11 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  document.getElementById("KemerdekaanIndonesia").innerHTML = days + "d " + hours + "h "
+  document.getElementById("Ultahw").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("KemerdekaanIndonesia").innerHTML = "BERAKHIR";
+    document.getElementById("Ultahw").innerHTML = "BERAKHIR";
   }
 }, 1000);
 </script>
